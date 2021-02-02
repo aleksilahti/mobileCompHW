@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mobileCompHW</string>
+    <string name="login">Login</string>
+    <string name="login_password_hint">Enter password</string>
+    <string name="login_username_hint">Enter username</string>
+    <string name="login_image_description">Cessna 172</string>
+
+    <string name="add_reminder_description">Add a reminder</string>
+    <string name="add_reminder">Add Reminder</string>
+
+</resources>
