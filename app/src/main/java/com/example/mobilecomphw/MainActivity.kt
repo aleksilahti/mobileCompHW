@@ -1,5 +1,6 @@
 package com.example.mobilecomphw
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -11,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.login_button).setOnClickListener {
-            Log.d()
+            val intent = Intent(this, Reminders::class.java)
+            startActivity(intent);
         }
     }
 }
